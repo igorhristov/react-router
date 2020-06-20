@@ -24,8 +24,8 @@ const links = [
         label: 'Article',
     },
     {
-        path: '/about',
-        label: 'About',
+        path: '/todo',
+        label: 'Todo',
     },
 ];
 

@@ -5,8 +5,7 @@ import Authors from './pages/Authors';
 import Author from './pages/Author';
 import Article from './pages/Article';
 import ErrorPage from './pages/ErrorPage';
-import About from './pages/About';
-
+import TodoApp from './pages/TodoPage';
 
 export default function BasicExample() {
     return (
@@ -26,8 +25,8 @@ export default function BasicExample() {
                     <Article />
                 </Route>
 
-                <Route path='/about'>
-                    <About />
+                <Route path='/todo'>
+                    <TodoApp />
                 </Route>
 
                 <Route path='*'>
